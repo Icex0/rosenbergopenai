@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        font-family: Arial;
+        background-color: #333;
+        color: #fff;
+      }
+
+      .quiz-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .question {
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+
+      .option {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+
+      .option input {
+        margin-right: 10px;
+      }
+
+      .submit-button {
+        background-color: aqua;
+        color: #333;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 15px;
+      }
+
+      .submit-button:hover {
+        background-color: #444;
+      }
+
+      .submit-button:disabled {
+        background-color: #ccc;
+        color: #333;
+        cursor: not-allowed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <form>
+        <div class="question"> 1. Over het algemeen ben ik tevreden met mezelf. </div>
+        <label class="option">
+          <input type="radio" name="q1" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q1" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q1" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q1" value="d"> Sterk mee eens </label>
+        <div class="question"> 2. Soms denk ik dat ik helemaal nergens goed in ben. </div>
+        <label class="option">
+          <input type="radio" name="q2" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q2" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q2" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q2" value="d"> Sterk mee eens </label>
+        <div class="question"> 3. Ik vind dat ik een aantal goede kwaliteiten heb. </div>
+        <label class="option">
+          <input type="radio" name="q3" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q3" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q3" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q3" value="d"> Sterk mee eens </label>
+        <div class="question"> 4. Ik kan dingen net zo goed als de meeste andere mensen. </div>
+        <label class="option">
+          <input type="radio" name="q4" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q4" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q4" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q4" value="d"> Sterk mee eens </label>
+        <div class="question"> 5. Ik heb het gevoel dat ik niet veel heb om trots op te zijn. </div>
+        <label class="option">
+          <input type="radio" name="q5" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q5" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q5" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q5" value="d"> Sterk mee eens </label>
+        <div class="question"> 6. Ik voel me soms nutteloos. </div>
+        <label class="option">
+          <input type="radio" name="q6" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q6" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q6" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q6" value="d"> Sterk mee eens </label>
+        <div class="question"> 7. Ik voel dat ik een persoon van waarde ben, tenminste op gelijke voet met anderen. </div>
+        <label class="option">
+          <input type="radio" name="q7" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q7" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q7" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q7" value="d"> Sterk mee eens </label>
+        <div class="question"> 8. Ik wou dat ik meer respect voor mezelf had. </div>
+        <label class="option">
+          <input type="radio" name="q8" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q8" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q8" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q8" value="d"> Sterk mee eens </label>
+        <div class="question"> 9. Al met al ben ik geneigd te denken dat ik een mislukking ben. </div>
+        <label class="option">
+          <input type="radio" name="q9" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q9" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q9" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q9" value="d"> Sterk mee eens </label>
+        <div class="question"> 10. Ik neem een positieve houding aan tegenover mezelf </div>
+        <label class="option">
+          <input type="radio" name="q10" value="a"> Sterk mee oneens </label>
+        <label class="option">
+          <input type="radio" name="q10" value="b"> Oneens </label>
+        <label class="option">
+          <input type="radio" name="q10" value="c"> Eens </label>
+        <label class="option">
+          <input type="radio" name="q10" value="d"> Sterk mee eens </label>
+        <button id="calculateButton" class="submit-button" onclick="submitQuiz()">Bekijk resultaat</button>
+      </form>
+      <div class="result"></div>
+      <div class="total"></div>
+    </div>
+    <script>
+      function submitQuiz() {
+        var score = 0;
+        // loop through each question
+        for (var i = 1; i <= 10; i++) {
+          // get the value of the selected option for each question
+          var q = document.querySelector('input[name="q' + i + '"]:checked');
+          // add the corresponding number of points for each selected option
+          if (i == 2 || i == 5 || i == 6 || i == 8 || i == 9) {
+            if (q.value == 'a') {
+              score += 3;
+            } else if (q.value == 'b') {
+              score += 2;
+            } else if (q.value == 'c') {
+              score += 1;
+            } else if (q.value == 'd') {
+              score += 0;
+            }
+          } else {
+            if (q.value == 'a') {
+              score += 0;
+            } else if (q.value == 'b') {
+              score += 1;
+            } else if (q.value == 'c') {
+              score += 2;
+            } else if (q.value == 'd') {
+              score += 3;
+            }
+          }
+        }
+        // display the total score
+        if (score < 21) {
+          document.querySelector(".result").innerHTML = "Deel van groep 1!";
+        } else {
+          document.querySelector(".result").innerHTML = "Deel van groep 2!";
+        }
+        // Add disabled attribute to button
+        document.getElementById("calculateButton").setAttribute("disabled", true);
+        document.querySelector('.total').innerHTML = 'Totaal punten: ' + score;
+      }
+    </script>
+  </body>
